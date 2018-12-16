@@ -59,7 +59,7 @@ def main():
     # TODO maybe it's time to go to contest grammars and Erly algorithm?
     # TODO it should have it's own button then
     # TODO sounds like context free grammar to push down automata
-    updater = Updater("654073755:AAF3FnUsnrkchA9VYrxkl3kTbpAQ9wL1dxI")
+    updater = Updater("Token")
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("automata", automata))
